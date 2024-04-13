@@ -3,7 +3,7 @@ This is a WIP repo for pre-compiled ccminer binaries with latest termux(v0.118.0
 
 # **`Disclaimer: I accept no warranties or liabilities on this repo. Do it at your own risk!!!`**
 
-# **`This is for any ARMv8 device`**
+# **`This is for TESTS ONLY`**
 
 # **`If Termux apk does not install is done purposely this provided apk will only work on arm 64-bit operating system which in turn requires arm 64-bit hardware this is to avoid lost of time for users and myself. (Mining on 32-bit devices is not profitable)`**
 
