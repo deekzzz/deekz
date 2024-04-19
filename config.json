@@ -16,13 +16,13 @@
             "name": "NA-LUCKPOOL",
             "url": "stratum+tcp://na.luckpool.net:3960",
             "timeout": 180,
-            "disabled": 0
+            "disabled": 1
         },
         {
             "name": "AIH-LOW",
             "url": "stratum+tcp://verus.aninterestinghole.xyz:9998",
             "timeout": 180,
-            "disabled": 1
+            "disabled": 0
         },
         {
             "name": "WW-ZERGPOOL",
@@ -44,10 +44,10 @@
         }],
 
     "user": "RUCkh4PbGedGLcBsgNsXhoDwnmp5ceTwyd.DTXBOX",
-    "pass": "hybrid",
+    "pass": "",
     "algo": "verus",
     "threads": 8,
     "cpu-priority": 1,
-    "cpu-affinity": -1,
+    "cpu-affinity": 255,
     "retry-pause": 10
 }
