@@ -1,10 +1,16 @@
 {
     "pools":
         [{
-            "name": "US-VIPOR",
-            "url": "stratum+tcp://us.vipor.net:5040",
+            "name": "US-VIPOR-SOLO",
+            "url": "stratum+tcp://us.vipor.net:5045",
             "timeout": 180,
             "disabled": 1
+        },
+        {
+            "name": "PADDY-LOW",
+            "url": "stratum+tcp://paddypool.net:9998",
+            "timeout": 180,
+            "disabled": 0
         },
         {
             "name": "USSE-VIPOR",
@@ -16,7 +22,7 @@
             "name": "NA-LUCKPOOL",
             "url": "stratum+tcp://na.luckpool.net:3960",
             "timeout": 180,
-            "disabled": 0
+            "disabled": 1
         },
         {
             "name": "AIH-LOW",
@@ -43,11 +49,11 @@
             "disabled": 1
         }],
 
-    "user": "RUCkh4PbGedGLcBsgNsXhoDwnmp5ceTwyd.DTXBOX",
+    "user": "RUCkh4PbGedGLcBsgNsXhoDwnmp5ceTwyd.VLB1",
     "pass": "",
     "algo": "verus",
     "threads": 8,
-    "cpu-priority": 1,
-    "cpu-affinity": -1,
+    "cpu-priority": 5,
+    "cpu-affinity": 255,
     "retry-pause": 10
 }
